@@ -16,7 +16,7 @@ export default {
 
 <style lang="scss">
   .nav{
-    width: 1024px;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
