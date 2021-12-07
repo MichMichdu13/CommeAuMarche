@@ -10,11 +10,11 @@ import Welcome from '../components/Welcome.vue'
 import Nav from '../components/nav/Nav.vue'
 
 export default {
-  name: 'About',
-  components: {
-    Welcome,
-    Nav,
-  },
+  // name: 'About',
+  // components: {
+  //   Welcome,
+  //   Nav,
+  // },
 }
 </script>
 
