@@ -1,5 +1,19 @@
 /* Add CSS styles here! */
+@font-face {
+  font-family: "BourtonBase";
+  src: local("BourtonBase"),
+   url(font/BourtonBase.ttf) format("truetype");
+}
+@font-face {
+  font-family: "TradeGothicLTPro";
+  src: local("TradeGothicLTPro"),
+   url(font/TradeGothicLTPro.ttf) format("truetype");
+}
+
 body {
   font-family: sans-serif;
+}
 
+*{
+  margin: 0;
 }
