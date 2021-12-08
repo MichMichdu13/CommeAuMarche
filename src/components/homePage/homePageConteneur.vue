@@ -4,7 +4,6 @@
       <titreMain></titreMain>
       <recherche></recherche>
     </div>
-    <contenerMid/>
   </div>
 </template>
 
@@ -12,14 +11,12 @@
 
 import titreMain from './titreMain.vue';
 import recherche from './recherche.vue';
-import contenerMid from './textMid/contenerMid.vue'
 
 export default {
   name: 'homePageConteneur',
   components: {
     titreMain,
     recherche,
-    contenerMid,
   },  
 }
 
