@@ -22,11 +22,12 @@ export default {
     ". . ."
     ". t2 t2";
     text-align: center;
+    margin: 50px 0;
     .titreMain1{
         color:#5E6B4F ;
-        font-family:"TradeGothicLTPro";  
+        font: normal normal normal 40px/40px TradeGothicLTPro;
+        // font-family:"TradeGothicLTPro";  
         grid-area: t1;
-        font-size: 40px;
     }
     .titreMain2{
         color:#5E6B4F ;
