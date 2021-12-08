@@ -22,7 +22,7 @@ export default {
     ". . ."
     ". t2 t2";
     text-align: center;
-    margin: 50px 0;
+    margin: 120px 0;
     .titreMain1{
         color:#5E6B4F ;
         font: normal normal normal 40px/40px TradeGothicLTPro;

@@ -22,6 +22,8 @@ export default {
 
 <style lang="scss">
 .recherche{
+    display: flex;
+    justify-content: center;
     .formRecherche{
         display: grid;
          grid-template-columns: 300px 15px 200px 15px 50px;

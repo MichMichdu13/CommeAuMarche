@@ -2,7 +2,6 @@
   <div class="homePageConteneur">
     <titreMain></titreMain>
     <recherche></recherche>
-    <img src="images/sac.png" alt="sac" class="sac">
   </div>
 </template>
 
@@ -26,11 +25,5 @@ export default {
     width: 1024px;
     margin: auto;
     position: relative;
-    .sac{
-      position: absolute;
-      top: 20px;
-      right: 150px;
-      width: 250px;
-    }
   }
 </style>
