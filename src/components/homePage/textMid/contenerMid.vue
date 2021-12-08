@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss">
 
-  .contenerMid{
+.contenerMid{
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -36,7 +36,7 @@ export default {
           position: absolute;
           left: 0;
           bottom: 0;
-          transform: translate(-80%, 65%);
+          transform: translate(-70%, 70%);
       }
       h1{
           font: normal normal normal 40px/77px BourtonBase;
@@ -54,5 +54,5 @@ export default {
               align-self: flex-start;
           }
       }
-  }
+}
 </style>
