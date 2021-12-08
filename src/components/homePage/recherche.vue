@@ -26,8 +26,8 @@ export default {
     justify-content: center;
     .formRecherche{
         display: grid;
-         grid-template-columns: 300px 15px 200px 15px 50px;
-         grid-template-rows: 50px ;
+         grid-template-columns: 320px 15px 220px 15px 50px;
+         grid-template-rows: 60px ;
         grid-template-areas: "what . where . button";
         input{
             border: 1px solid #3C5424;
@@ -43,16 +43,16 @@ export default {
         .what{
             grid-area: what;
             #what{
-                width: 290px;
-                height: 40px;
+                width: 310px;
+                height: 50px;
 
             }
         }
         .where{
             grid-area: where;
             #where{
-                width: 190px;
-                height: 40px;
+                width: 210px;
+                height: 50px;
 
 
             }
@@ -60,8 +60,8 @@ export default {
         .button{
             grid-area: button;
             button{
-                width: 44px;
-                height: 44px;
+                width: 54px;
+                height: 54px;
                 background: #5E6B4F;
                 border: none;
                 border-radius: 10px;

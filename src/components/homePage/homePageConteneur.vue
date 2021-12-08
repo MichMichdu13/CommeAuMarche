@@ -1,7 +1,10 @@
 <template>
   <div class="homePageConteneur">
-    <titreMain></titreMain>
-    <recherche></recherche>
+    <div class="header">
+      <titreMain></titreMain>
+      <recherche></recherche>
+    </div>
+    <contenerMid/>
   </div>
 </template>
 
@@ -9,12 +12,14 @@
 
 import titreMain from './titreMain.vue';
 import recherche from './recherche.vue';
+import contenerMid from './textMid/contenerMid.vue'
 
 export default {
   name: 'homePageConteneur',
   components: {
     titreMain,
     recherche,
+    contenerMid,
   },  
 }
 
@@ -25,5 +30,11 @@ export default {
     width: 1024px;
     margin: auto;
     position: relative;
+    .header{
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 </style>

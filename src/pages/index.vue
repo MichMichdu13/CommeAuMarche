@@ -9,6 +9,7 @@
 import Nav from '../components/nav-footer/Nav.vue';
 import homePageConteneur from '../components/homePage/homePageConteneur.vue';
 
+
 export default {
   name: 'Home',
   components: {

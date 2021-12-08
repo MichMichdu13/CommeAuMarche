@@ -22,7 +22,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
     margin-top: 10px;
     position: relative;
     .pictoCompte{
