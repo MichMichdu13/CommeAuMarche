@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <Nav></Nav>
-    <homePageConteneur></homePageConteneur>
+    <homePageConteneur/>
     <contenerMid/>
+    <newsletterContainer/>
+    <pictoBasContainer/>
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import Nav from '../components/nav-footer/Nav.vue';
 import homePageConteneur from '../components/homePage/homePageConteneur.vue';
 import contenerMid from '../components/homePage/textMid/contenerMid.vue'
+import newsletterContainer from '../components/homePage/newsletter/newsletterContainer.vue'
+import pictoBasContainer from '../components/homePage/pictoBas/pictoBasContainer.vue'
 
 export default {
   name: 'Home',
@@ -17,6 +21,9 @@ export default {
     Nav,
     homePageConteneur,
     contenerMid,
+    newsletterContainer,
+    pictoBasContainer,
+
   },
 }
 </script>
