@@ -43,6 +43,7 @@ export default {
           color: #5E6B4F;
           margin: 80px;
           margin-top: 0;
+          text-align: center;
       }
       .textDiv{
           width: 800px;
@@ -54,5 +55,27 @@ export default {
               align-self: flex-start;
           }
       }
+}
+
+@media screen and (max-width: 1024px){
+   h1{
+          font-size: 23px !important;
+          margin: 40px !important;
+
+      }
+    svg{
+      width: 100% !important;
+      bottom: 150% !important;
+    }
+    .textDiv{
+
+          flex-direction: column !important;
+          justify-content: none !important;
+          align-items: center !important;
+          .fisrtchild{
+              align-self: center !important;
+          }
+      }
+
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <img src="images/logo-comme-au-marche.jpg" alt="logo" class="logo">
+    <img src="images/comme-au-marche.png" alt="logo" class="logoNav">
         <svg class="Ellipse_1" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1288 1288">
       <circle id="Ellipse_1" data-name="Ellipse 1" cx="644" cy="644" r="644" fill="#c99466" opacity="0.596"/>
     </svg>
@@ -35,7 +35,7 @@ export default {
       transform: translate(50%, -50%);
       z-index: -1;
     }
-    .logo{
+    .logoNav{
       height: 100px;
 
     }
@@ -46,4 +46,17 @@ export default {
       width: 250px;
     }
   }
+  @media screen and (max-width: 1024px){
+    .nav{
+      .logoNav{
+        height: 80px;
+      }
+      svg{
+        width: 100%;
+      }
+      .sac{
+        display: none;
+      }
+    }
+}
 </style>

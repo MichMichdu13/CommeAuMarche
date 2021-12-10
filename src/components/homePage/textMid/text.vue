@@ -29,4 +29,12 @@ export default {
         margin: 0;
       }
   }
+@media screen and (max-width: 1024px){
+   .textMid{
+     margin-bottom: 30px !important;
+     p{
+       margin: 10px !important;
+     }
+   }
+}
 </style>

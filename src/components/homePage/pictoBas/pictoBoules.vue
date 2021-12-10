@@ -57,4 +57,15 @@ export default {
         }
       }
   }
+  @media screen and (max-width: 1024px){
+    .PictoBoule{
+      width: 150px !important;
+      height: 150px !important;
+      p{
+        font-size: 14px !important;
+      }
+    }
+
+
+}
 </style>

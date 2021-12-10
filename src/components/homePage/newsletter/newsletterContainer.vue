@@ -34,6 +34,16 @@ export default {
         margin: 0;
     }
 }
-    
+@media screen and (max-width: 1024px){
+   h4{
+          font-size: 23px !important;
+          margin-bottom: 50px;
+
+      }
+    p{
+      font-size: 14px !important;
+      width: 90%;
+    }
+}
 
 </style>

@@ -79,5 +79,36 @@ export default {
     }
 
 }
- 
+@media screen and (max-width: 1024px){
+    .formRecherche{
+        grid-template-columns: 155px 15px 110px 15px 30px !important;
+        grid-template-rows: 30px !important;
+        input::placeholder{
+            font-size: 14px !important;
+        }
+        .where{
+            #where{
+                width: 100px !important;
+                height: 25px !important;
+            }
+        }
+        .what{
+            #what{
+                width: 150px !important;
+                height: 25px !important;
+            }
+        }
+            .button{
+                button{
+                    width: 29px !important;
+                    height: 29px !important;
+                    img{
+                        width: 15px !important;
+                        height: 15px !important;
+                    }
+                }
+            }
+
+    }
+}
 </style>

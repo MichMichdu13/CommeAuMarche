@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss">
   .homePageConteneur{
-    width: 1024px;
+    width: 90%;
     margin: auto;
     position: relative;
     .header{
@@ -34,4 +34,9 @@ export default {
       justify-content: center;
     }
   }
+  @media screen and (max-width: 1024px){
+    .header{
+      height: 70vh !important;
+    }
+}
 </style>

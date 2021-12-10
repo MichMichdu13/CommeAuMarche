@@ -28,6 +28,13 @@ export default {
     align-items: center;
 
 }
-    
+  @media screen and (max-width: 1024px){
+.pictoBasContainer{
+  width: 150px !important;
+  flex-direction: column !important;
+}
+
+
+}   
 
 </style>

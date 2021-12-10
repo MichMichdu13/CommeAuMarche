@@ -51,9 +51,10 @@ export default {
             grid-area: button2;
             button{
                 width: 100px;
-                height: 54px;
+  
                 background: #5E6B4F;
                 border: none;
+                height: 54px;
                 border-radius: 10px;
                 opacity: 0.62;
                 display: flex;
@@ -68,5 +69,25 @@ export default {
     }
 
 }
+@media screen and (max-width: 1024px){
+    input{
+            &::placeholder{ 
+                font-size: 14px !important;
+            }
+        }
+        .newsInput{
+            #newsInput{
+                width: 150px !important;
+                height: 25px !important;
 
+            }
+    }
+    .button2{
+        button{
+            height: 29px !important;
+            width: 70px !important;
+            font-size: 14px !important;
+        }
+    }
+}
 </style>

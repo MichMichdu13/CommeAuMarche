@@ -36,4 +36,17 @@ export default {
         font-size: 40px;
     }
   }
+    @media screen and (max-width: 1024px){
+       .titreMain{
+         margin: 20px auto 50px auto;
+        grid-template-columns: 150px 50px 100px;
+        grid-template-rows: 30px 10px 30px;
+        .titreMain1{
+          font-size: 20px;
+        }
+        .titreMain2{
+          font-size: 20px;
+        }
+       }
+}
 </style>
