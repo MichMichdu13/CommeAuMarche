@@ -3,9 +3,11 @@
       <div class="footerContainer">
             <img src="images/comme-au-marche.png" alt="logo-commme-au-marché" class="logoFooter">
             <div class="footerNav">
-                <p>Copyright © 2021 Comme au marché</p>
-                <a href=""><img src="images/instaPicto.png" alt="picto Instagram"></a>
-                <a href=""><img src="images/facebook.png" alt="Picto facebook"></a>
+                <p class="copyright">Copyright © 2021 Comme au marché</p>
+                <div class="resaux">
+                    <a href=""><img src="images/instaPicto.png" alt="picto Instagram"></a>
+                    <a href=""><img src="images/facebook.png" alt="Picto facebook"></a>
+                </div>
                 <div class="separateur"></div>
                 <a href="">Contact</a>
                 <a href="">Politique de confidentialité</a>
@@ -60,9 +62,41 @@ export default {
             img{
                 width: 20px;
                 height: 20px;
+                margin-right: 10px;
             }
         }
 
     }
   }
+  @media screen and (max-width: 1024px){
+      .footer{
+        height: 200px !important;
+        padding-top: 10px;
+        .footerContainer{
+            flex-direction: column !important;
+        .logoFooter{
+            width: 100px !important;
+        }
+        .footerNav{
+            display: flex !important;
+            flex-direction: column-reverse;
+            justify-content: space-evenly !important;
+             a{
+                font-size: 12px !important;
+            }
+            .copyright{
+                font-size: 10px !important;
+            }
+
+            img{
+                width: 20px !important;
+                height: 20px !important;
+            }
+            .separateur{
+                display: none !important;
+            }
+        }
+      }
+
+}}
 </style>
